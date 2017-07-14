@@ -1,5 +1,3 @@
-var num = 8;
-
 function factors(num){
   var half = Math.floor(num / 2),
       fin = [1],
@@ -12,5 +10,9 @@ function factors(num){
   fin.push(num)
   return fin;
 }
-
-console.log(fin)
+var primeFactors = Array();
+var factorsOfNum = factors(Number(process.argv[2]))
+for (var i = 0; i < factorsOfNum.length; i++){
+  if(factors(factorsOfNum[i]).length === 2) primeFactors.push(factorsOfNum[i]);
+}
+console.log(primeFactors.join(","))
