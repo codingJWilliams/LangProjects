@@ -1,0 +1,3 @@
+gcc -Ofast main.cpp -o dist\main.exe
+cd dist
+.\main 40
