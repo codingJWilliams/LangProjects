@@ -1,0 +1,4 @@
+node main.js <price> <width> <length>
+=> <price>*<width>*<length>
+node main.js 10 15 20
+=> 3000
