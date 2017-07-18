@@ -1,0 +1,3 @@
+node main.js encrypt IN.txt OUT.txt 16
+# IN.txt => Jay Williams is the best programmer
+# OUT.txt=> Ldh Hybdutga dy ydn uetb dyydudnecc
